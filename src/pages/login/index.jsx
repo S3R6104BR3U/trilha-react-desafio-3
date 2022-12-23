@@ -31,6 +31,7 @@ const Login = () => {
             alert('Usuário ou senha inválido')
         }catch(e){
             //TODO: HOUVE UM ERRO
+            alert("Houve um ERRO")
         }
     };
 
@@ -41,7 +42,8 @@ const Login = () => {
         <Container>
             <Column>
                 <Title>A plataforma para você aprender com experts, dominar as principais tecnologias
-                 e entrar mais rápido nas empresas mais desejadas.</Title>
+                 e entrar mais rápido nas empresas mais desejadas.
+                </Title>
             </Column>
             <Column>
                 <Wrapper>
@@ -56,7 +58,7 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <CriarText href="/cadastro">Criar Conta</CriarText>
                 </Row>
                 </Wrapper>
             </Column>

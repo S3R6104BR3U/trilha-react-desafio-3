@@ -28,8 +28,6 @@ export const Row = styled.div`
     margin-top: 20px;
 `
 
-
-
 export const Title = styled.h2`
     font-family: 'Open Sans';
     font-style: normal;
@@ -46,7 +44,7 @@ export const TitleLogin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 29px;
     line-height: 44px;
     margin-bottom: 8px;
 `
@@ -60,18 +58,7 @@ export const SubtitleLogin = styled.p`
     margin-bottom: 35px;
 `
 
-
-export const EsqueciText  = styled.p`
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-
-    color: #E5E044;
-` 
-
-export const CriarText =  styled.a` 
+export const CriarText =  styled.a`
     text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
@@ -80,4 +67,12 @@ export const CriarText =  styled.a`
     line-height: 19px;
 
     color: #23DD7A;
+`
+
+export const  TextConta = styled.p `
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
 `
